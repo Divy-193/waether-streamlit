@@ -2,7 +2,7 @@ import streamlit as st
 import datetime,requests
 from plotly import graph_objects as go
 
-st.set_page_config(page_title='Krut patel', page_icon=":rainbow:")
+st.set_page_config(page_title='Divy Gami', page_icon=":rainbow:")
 
 st.title("8-DAY WEATHER FORECAST 🌧️🌥️")
 
@@ -164,5 +164,5 @@ if(st.button("SUBMIT")):
         st.markdown("Srinivas T B")
  
     except KeyError:
-        st.error(" Invalid city!!  Please try again !!")
+        st.error(" Not Exist!!  Please try again !!")
 
